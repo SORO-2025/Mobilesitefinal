@@ -1,0 +1,44 @@
+html {
+  background-color: #728b5f;
+  padding-bottom: 2em;
+}
+header nav ul {
+  list-style-type: none; /* Fjerner prikkerne */
+  padding: 0.2em; /* Fjerner standard padding */
+  margin: 0.4em; /* Fjerner standard margin */
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  display: flex; /* Gør listen til en fleksboks for at få elementerne på linje */
+  gap: 1em; /* Sætter mellemrum mellem elementerne */
+  justify-content: flex-start; /* Sørger for at listeelementerne ligger til venstre */
+  flex-wrap: nowrap; /* Forhindrer at elementerne rykker til næste linje ved skærmstørrelse */
+}
+nav a {
+  text-decoration: none;
+  color: bisque;
+}
+header {
+  border: 2px solid #000;
+}
+img {
+  display: block; /* gør billedet til blok-element, så det tager hele linjen */
+  margin: 1em auto 0; /* 1em margin ovenfor, auto margin til sider = centreret */
+  width: 450px; /* fast bredde, tilpas som ønsket */
+  height: auto; /* bevarer proportionerne */
+  position: static; /* sikrer billedet følger dokumentflowet */
+}
+.liste {
+  line-height: 2em;
+}
+.liste dt {
+  font-weight: bold;
+}
+.liste {
+  text-decoration: none;
+  color: bisque;
+  border: 2px solid #000;
+}
+h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 3em;
+}
